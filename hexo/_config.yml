@@ -3,19 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: LaoWa
+subtitle: 
+description: 程序的世界至真至纯，0-1没有区别，皆是因果循环，愿80岁时还能写写代码练练字，弹弹吉他唱唱歌。
+author: WateMei
+language: zh-Hans
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://watemei.github.io/watemei/
+root: /watemei/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+# 头像设置
+avatar: /uploads/avatar.jpg
 
 # Directory
 source_dir: source
@@ -72,11 +75,28 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/watemei/watemei.git
+  repo: https://github.com/watemei/watemei.git
   branch: gh-pages
+
+# Wechat Subscriber
+wechat_subscriber:
+  enabled: true
+  qcode: /watemei/uploads/qrcode_weikcha.jpg
+  description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
+
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /watemei/uploads/wechat-reward-image.png
+alipay: /watemei/uploads/alipay-reward-image.jpg
+
+since: 2017
+
+use_motion: true  # 开启动画效果
+
+canvas_nest: true #开启动画
+three_waves: true #开启动画
